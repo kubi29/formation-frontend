@@ -117,13 +117,17 @@ class TripService {
     }
     findByName(tripName) {
     // TODO return promise
+    
     }
     }
     class PriceService {
     constructor() {
     // TODO Map of 2 trips
-    // 'paris' --> price = 100
-    // 'rio-de-janeiro' --> price = 800)
+    this.priceMap = new Map([
+        ['paris' , 100],
+        ['rio-de-janeiro' , 800]
+    ])
+    
     // no price for 'nantes'
     }
     findPriceByTripId(tripId) {

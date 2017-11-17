@@ -27,3 +27,14 @@ jules.age = 30;
 console.log(jules.age);
 
 console.log(jules.getInitiales())
+
+ var robert = {
+
+    prenom = "Robert",
+    nom = "LEPREFET",
+    pseudo = "robert77",
+
+    getInitiales = function(){"Jules".charAt(0)
+    return ("nom =" + this.nom +" prénom = " + this.prenom + " pseudo = "+ this.pseudo );
+    }
+ }
